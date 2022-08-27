@@ -1,0 +1,3 @@
+$('#arrowRight').onclick = () => {
+    alert('sdf')
+}

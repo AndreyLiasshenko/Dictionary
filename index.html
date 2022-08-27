@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+    <link rel="shortcut icon" href="images/dictionary.ico" type="image/x-icon">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <link href="style/settingsStyle.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="wrapper">
+            <div class="navbar" id="8">
+                <div class="titleBlock">
+                    <img src="images/dictionary.png" width="50px" height="50px" alt="picture">
+                    <span class="title" id="2">Dictionary</span>
+                </div>
+                <label>
+                    <input type="text" name="mainInput" value="Type here" class="mainInput" id="1">
+                </label>
+                <div>
+                    <button class="save" id="6">Save</button>
+                    <button class="save" style="right: 76px" id="7">Load</button>
+                    <button class="save" style="right: 5px" id="9">Settings</button>
+                    <div class="states">
+                        <img src="images/minus.png" alt="min" id="minus" width="35" height="35" style="margin-bottom: 2px">
+                        <img  src="images/plus2.png" alt="pl" id="plus" width="35" height="35" style="margin-bottom: 2px">
+                        <img src="images/state1.png" alt="state1" width="40" height="40" id="state1">
+                        <img src="images/state3.png" alt="state2" id="state3">
+                    </div>
+                    <div class="words"></div>
+                </div>
+            </div>
+            <img src="images/arrowRight.png" id="arrowRight" width="70" height="70">
+            <div class="content" id="5">
+            </div>
+
+            <div class="footer" id="10">
+                <h1 class="titleFooter" id="4">For english learners</h1>
+                <ul class="ulFooter">
+                    <li><a href="#" style="text-decoration: none">Support</a></li>
+                    <li><a href="#" style="text-decoration: none">About</a></li>
+                    <li><a href="#" style="text-decoration: none">Author</a></li>
+                </ul>
+                <hr class="hr1">
+                <h1 class="end">Are you tell your friends about this site? </h1>
+            </div>
+        </div>
+
+        <div id="shadow" >
+            <div id="window">
+                <a href="#" class="close">Close settings</a>
+                <div class="settingsBox" style="margin-top: 15px">
+                    <span class="title1" >Light theme</span>
+                    <label class="switch" >
+                        <input type="checkbox" id="11">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/settings.js"></script>
+    <script src="scripts/save.js"></script>
+    <script src="scripts/load.js"></script>
+    <script src="scripts/jquery-3.6.1.min.js"></script>
+    <script src="scripts/arrows.js"></script>
+</body>
+</html>
